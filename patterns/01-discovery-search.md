@@ -11,7 +11,7 @@ Airbnb vaka çalışması sayfası, autocomplete örnek sayfası), Google Design
 Airbnb Engineering (Medium/airbnb-engineering) blog yazısı "Recommending travel destinations
 to help users explore", ve harita sıralaması üzerine üçüncü taraf bir teknik özet (techscoop
 substack). Bunların dışındaki bazı ikincil Medium/UX Collective yazıları sadece arama
-sonucu snippet'i üzerinden görüldü, tam metin fetch edilemedi (redirect/404/403 hataları) —
+sonucu snippet'i üzerinden görüldü, tam metin fetch edilemedi (redirect/404/403 hataları) -
 bu durumlar ilgili maddede ayrıca belirtildi.
 
 ---
@@ -82,8 +82,8 @@ eğitim verisi**.
 ## 3. Esnek arama: "I'm Flexible" / Flexible Dates / Flexible Destinations
 
 **Ne olduğu:** Kullanıcı net bir tarih veya konum belirlemeden arama yapabildiği üç ayrı
-esnek-arama modu: (a) **Flexible Dates** — "hafta sonu", "bir haftalık", "aylık" gibi kaba
-zaman aralıklarıyla arama; (b) **Flexible Destinations/"I'm Flexible"** — belirli bir yer
+esnek-arama modu: (a) **Flexible Dates** - "hafta sonu", "bir haftalık", "aylık" gibi kaba
+zaman aralıklarıyla arama; (b) **Flexible Destinations/"I'm Flexible"** - belirli bir yer
 yerine "tekne", "tiny home", "kubbe ev" gibi benzersiz ilan kategorilerine göre, kullanıcının
 konumuna en yakından başlayarak öneri listesi sunma.
 
@@ -104,7 +104,7 @@ uygulamasında "bu ay içinde herhangi bir gün" veya "bana yakın herhangi bir 
 **Kaynak / güven notu:** Kısmen doğrulandı. "500 milyon esnek arama" ve "1/20 rezervasyon"
 rakamları WebSearch sonuçlarında Airbnb'nin kendi haber sitesine (news.airbnb.com) atıfla
 görüldü, ancak ilgili news.airbnb.com sayfasını doğrudan fetch etmeye çalıştığımda 403
-(erişim engeli) hatası aldım — yani rakamları birincil kaynaktan kendim doğrulayamadım, sadece
+(erişim engeli) hatası aldım - yani rakamları birincil kaynaktan kendim doğrulayamadım, sadece
 arama motoru özetinden gördüm. Özelliğin var olduğu ve nasıl çalıştığı (flexible dates/
 destinations mekaniği) WebSearch snippet'lerinde tutarlı → **kısmen doğrulanmadı: özelliğin
 varlığı makul güvenilir, sayısal istatistikler doğrudan doğrulanamadı**.
@@ -133,7 +133,7 @@ bir kalıp. Herhangi bir arama/keşif deneyiminde (iş ilanları, e-ticaret, sey
 durumu" (zero-query state) boş bırakılmamalı; en azından popüler/kişiselleştirilmiş öneriler
 konulmalı.
 
-**Kaynak / güven notu:** **Doğrulandı** — Airbnb Engineering blog yazısı "Recommending travel
+**Kaynak / güven notu:** **Doğrulandı** - Airbnb Engineering blog yazısı "Recommending travel
 destinations to help users explore" (medium.com/airbnb-engineering) fiilen fetch edilip
 okundu: https://medium.com/airbnb-engineering/recommending-travel-destinations-to-help-users-explore-5fa7a81654fb
 İçerik: "When users click on the search bar, multiple city recommendations are presented"
@@ -153,7 +153,7 @@ gezinme ve Enter ile seçim desteklenir.
 
 **UX gerekçesi:** Kullanıcının doğru yazım/terminolojiyi bilmesine gerek kalmadan doğru
 sonuca ulaşmasını sağlar, yazım hatalarını tolere eder ve arama kapsamını (şehir mi, mahalle
-mi, ülke mi) netleştirmeye yardımcı olur — bu genel autocomplete UX prensibi arama literatüründe
+mi, ülke mi) netleştirmeye yardımcı olur - bu genel autocomplete UX prensibi arama literatüründe
 (Baymard, NN/g tarzı kaynaklarda) yaygın olarak belgelenir.
 
 **Airbnb dışı bir uygulamaya uyarlama notu:** Konum/isim/kategori bazlı her arama kutusunda
@@ -163,7 +163,7 @@ netleştirmek kritik.
 
 **Kaynak / güven notu:** Kısmen doğrulandı. Baymard Institute'ın "Autocomplete Suggestions"
 örnek galerisinde Airbnb'ye özel bir sayfa olduğu doğrulandı (https://baymard.com/ecommerce-design-examples/34-autocomplete-suggestions/10344-airbnb
-— fetch edildi), ancak sayfanın asıl içeriği (dropdown'da tam olarak neyin göründüğü, sıralama
+- fetch edildi), ancak sayfanın asıl içeriği (dropdown'da tam olarak neyin göründüğü, sıralama
 mantığı) ücretli/kilit içerik olduğu için görülemedi, sadece "örnek #841/1130" başlığı
 okunabildi. Genel autocomplete davranışı (ok tuşlarıyla gezinme, Enter ile seçim) WebSearch
 özetlerinden geldi, birincil kaynaktan tam doğrulanamadı → **kısmen doğrulanmadı**.
@@ -176,7 +176,7 @@ okunabildi. Genel autocomplete davranışı (ok tuşlarıyla gezinme, Enter ile 
 kutusunun altında veya anasayfada kısayol olarak tekrar sunulması; bir dokunuşla önceki
 sorguya geri dönme imkânı.
 
-**Nerede görülür:** İkisi de (varsayım — bkz. güven notu).
+**Nerede görülür:** İkisi de (varsayım - bkz. güven notu).
 
 **UX gerekçesi (genel prensip olarak):** Kullanıcıların çoğu bir rezervasyon kararını tek
 oturumda vermez; birden fazla ziyarette aynı aramaya dönerler. Son aramaları öne çıkarmak
@@ -193,7 +193,7 @@ gördüm (bu, özelliğin bir şekilde var olduğuna işaret ediyor), ancak fetc
 airbnb.com/help/article/3893 sayfası bu konuyla ilgili değil çıktı (geçmiş seyahatleri
 paylaşma hakkındaydı) ve özelliğin tam olarak nerede/nasıl göründüğünü (anasayfada mı, arama
 kutusu altında mı) doğrulayan bir birincil kaynağa ulaşamadım. Bu maddeyi büyük ölçüde genel
-mobil/arama UX bilgisi ve dolaylı işaretlerden yazdım — kesin Airbnb detayı olarak
+mobil/arama UX bilgisi ve dolaylı işaretlerden yazdım - kesin Airbnb detayı olarak
 okunmamalı.
 
 ---
@@ -221,7 +221,7 @@ filtreleri öne çıkarma" bulgusuyla örtüşen bir tasarım kararı.
 **Kaynak / güven notu:** Kısmen doğrulandı. Baymard'ın genel bulgusu (kullanıcıların popüler
 filtreleri başlangıç noktası olarak kullanması) WebSearch özetinde "Baymard Institute'ın
 Travel Accommodations araştırması" atfıyla görüldü; Baymard'ın ilgili blog başlığı
-("Consider Promoting Important Filters — 61% Don't") arama sonuçlarında listelendi ama bu
+("Consider Promoting Important Filters - 61% Don't") arama sonuçlarında listelendi ama bu
 spesifik sayfayı ayrıca fetch etmedim. Airbnb'ye özgü çip/buton düzeni WebSearch snippet'lerinden
 (ikincil kaynaklar) geliyor → **kısmen doğrulanmadı**.
 
@@ -283,12 +283,12 @@ varsayılan görünümde listeyle yan yana (web) veya kolay erişilebilir bir to
 sunmak, kullanıcıların konum bağlamını kaybetmeden karar vermesini sağlar. Filtre/sıralama
 kontrollerinin harita görünümünde de erişilebilir kalmasına özellikle dikkat edilmeli.
 
-**Kaynak / güven notu:** **Doğrulandı** — Baymard Institute'ın "The Optimal Layout for Hotel
+**Kaynak / güven notu:** **Doğrulandı** - Baymard Institute'ın "The Optimal Layout for Hotel
 & Property Rental Search Results & 3 Pitfalls to Avoid" makalesi fiilen fetch edilip okundu:
 https://baymard.com/blog/accommodations-split-view
 Yukarıdaki %95, %70, %65 rakamları ve overlay/vertical sidebar/vertical reklam tuzakları bu
 sayfadan doğrudan alındı. Not: bu araştırma genel olarak "seyahat/konaklama siteleri"
-kategorisi için yapılmış, sadece Airbnb'ye özel değil — Airbnb'nin kendisinin split-view
+kategorisi için yapılmış, sadece Airbnb'ye özel değil - Airbnb'nin kendisinin split-view
 kullandığı ayrıca (Baymard'ın Airbnb vaka çalışması sayfasından) teyit edildi ama bu makale
 Airbnb'yi tek başına konu almıyor.
 
@@ -313,7 +313,7 @@ bu yüzden harita için ayrı bir ML sıralama modeli (coğrafi dikkat ve görü
 eğitilmiş. Baymard'ın ayrı bir bulgusuna göre ise bazı rakip sitelerde (Expedia) kullanıcıların
 **%75'i** haritada yakınlaştırıp alanı daralttıktan sonra liste görünümüne dönünce bu
 daraltmanın yansımadığını, yani harita-liste senkronizasyonunun eksik olduğu durumların ciddi
-bir kullanılabilirlik sorunu yarattığını gösteriyor — bu da senkronizasyonun neden kritik
+bir kullanılabilirlik sorunu yarattığını gösteriyor - bu da senkronizasyonun neden kritik
 olduğunu negatif örnekle kanıtlıyor.
 
 **Airbnb dışı bir uygulamaya uyarlama notu:** Harita tabanlı herhangi bir arama deneyiminde
@@ -325,7 +325,7 @@ göstermek yerine, en alakalı sonuçları öne çıkarıp geri kalanını görs
 
 **Kaynak / güven notu:** Kısmen doğrulandı. Mini-pin/30-50 ilan stratejisi ve ayrı harita ML
 modeli bilgisi, fiilen fetch edilen bir üçüncü taraf teknik özet yazısından geliyor
-(https://techscoop.substack.com/p/how-airbnb-made-map-search-smarter) — bu, Airbnb'nin
+(https://techscoop.substack.com/p/how-airbnb-made-map-search-smarter) - bu, Airbnb'nin
 birincil kaynağı değil, konuyu yorumlayan bir bülten; iddiaların orijinal Airbnb
 mühendislik/tasarım kaynağına kadar inip inmediğini doğrulayamadım. Expedia'daki
 %75 senkronizasyon sorunu rakamı ise Baymard'ın split-view makalesinden (yukarıdaki #9 ile
@@ -384,7 +384,7 @@ değiştiği durumlarda bileşen davranışını da niyete göre uyarlamak.
 **Airbnb dışı bir uygulamaya uyarlama notu:** İçerik/ürün kartı bileşeni olan her uygulamada,
 belirli bir alt-kategorideki içeriklerin kullanım amacı (satın alma/kaydetme vs. paylaşma/
 gösterme) sistematik olarak farklıysa, kart üzerindeki birincil aksiyonu o kategoriye özel
-olarak değiştirmek düşünülebilir — ama bu istisna az sayıda, gerçekten farklı davranışlı
+olarak değiştirmek düşünülebilir - ama bu istisna az sayıda, gerçekten farklı davranışlı
 kategoriyle sınırlı tutulmalı, aksi halde bileşen tutarlılığı bozulur.
 
 **Kaynak / güven notu:** **Doğrulanmadı, ikincil kaynak snippet'i.** Bu bilgi yalnızca bir
