@@ -6,7 +6,7 @@ Durumlar: `todo`, `in-progress`, `done`.
 | # | Dosya | Durum | Not |
 |---|-------|-------|-----|
 | 1 | patterns/01-discovery-search.md | done | 12 pattern; 6 kaynak fiilen fetch edildi (Baymard split-view, Baymard Airbnb vaka çalışması, Baymard autocomplete örneği, Google Design, Airbnb Engineering blog, techscoop harita özeti); ~3 pattern güçlü/birincil kaynakla doğrulandı, geri kalanı kısmen doğrulanmadı veya "doğrulanmadı, eğitim verisinden" olarak işaretli. |
-| 2 | patterns/02-listing-card-browse.md | todo | |
+| 2 | patterns/02-listing-card-browse.md | done | 12 pattern; 11 kaynak fiilen fetch edildi (TechCrunch fiyat haberi, Hospitable Guest Favorite, 2 Baymard makalesi, NN/g skeleton screens, 2 Airbnb yardım merkezi sayfası, GoodUI infinite scroll leak, Airbnb'nin kendi GitHub deposu/infinity.js, Prototypr kalp ikonu deneyi, + karşılaştırma amaçlı resmi olmayan bir reverse-engineered tasarım dökümü); 3 pattern Airbnb birincil kaynağıyla güçlü doğrulandı, geri kalanı karma/doğrulanmadı olarak işaretli. |
 | 3 | patterns/03-listing-detail.md | todo | |
 | 4 | patterns/04-booking-checkout.md | todo | |
 | 5 | patterns/05-trust-safety-signals.md | todo | |
